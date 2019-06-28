@@ -1,0 +1,42 @@
+.consultationComponent {
+	display: grid;
+	grid-template-rows: repeat(4, 4fr);
+	/*grid-template-columns: repeat(4, 0.2fr);*/
+	grid-gap: 10px;
+}
+
+.information,
+.antecedant,
+.consultation,
+.imagerie {
+	border: solid 2px var(--black);
+}
+
+.information h1 {
+	writing-mode: vertical-lr;
+}
+
+.consultationComponent div h1 {
+	color: white;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+		Verdana, sans-serif;
+	font-size: 1.5rem;
+	background: var(--black);
+}
+
+.information {
+	display: grid;
+	grid-template-columns: 0.09fr 3fr;
+}
+
+.antecedant {
+	writing-mode: vertical-lr;
+}
+
+.consultation {
+	writing-mode: vertical-lr;
+}
+
+.imagerie {
+	writing-mode: vertical-lr;
+}

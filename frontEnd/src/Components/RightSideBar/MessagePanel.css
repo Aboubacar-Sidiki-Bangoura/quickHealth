@@ -1,0 +1,43 @@
+.messagePanel {
+	display: grid;
+	height: 90vh;
+	grid-template-rows: 0.15fr 3fr 0.25fr;
+	grid-template-areas: "mHeader" "mBody" "mFooter";
+}
+
+.mHeader h1 {
+	width: 50%;
+}
+
+.mHeader {
+	border: solid var(--black) 2px;
+	background: var(--green);
+	grid-area: mHeader;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.mBody {
+	border: solid var(--black) 2px;
+	grid-area: mBody;
+	background: white;
+}
+
+.mFooter {
+	border: solid var(--black) 2px;
+	grid-area: mFooter;
+}
+
+.mFooter input {
+	width: 98%;
+	height: 91%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.mFooter input:focus {
+	border: solid var(--green) 2px;
+	background: rgba(0, 0, 0, 0.05);
+}

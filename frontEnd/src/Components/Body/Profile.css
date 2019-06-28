@@ -1,0 +1,58 @@
+.profile {
+	border: 1px var(--black) solid;
+	display: flex;
+	gap: 5px;
+}
+
+.profile div div img {
+	width: 15%;
+	height: 15%;
+}
+
+.profile div p span {
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.profile div p {
+	font-size: 2rem;
+}
+
+.rendezVousPlus {
+	padding: 5px;
+	position: relative;
+	display: flex;
+	margin-left: 65vh;
+	background: var(--green);
+	color: var(--white);
+	font-size: 1.5rem;
+	font-weight: bold;
+	width: 15rem;
+	height: 3rem;
+	border: 5px solid var(--black);
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+}
+
+.rendezVousPlus > a {
+	display: block;
+}
+
+.rendezVousPlus > a > img {
+	display: inline-block;
+	height: 100px;
+	width: 5rem;
+}
+
+.rendezVousPlus > a > span {
+	display: inline-block;
+	padding-bottom: 15px;
+}
+
+#image {
+	margin-top: 5px;
+	height: 10rem;
+	width: 10rem;
+}

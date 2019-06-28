@@ -1,0 +1,22 @@
+.accueil div button {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 2rem;
+	margin: 0;
+	padding: 0;
+	width: 33.33%;
+	background: var(--black);
+	color: var(--white);
+	text-align: center;
+}
+
+.buttonPanel {
+	padding-bottom: 5px;
+	border-bottom: 1px var(--black) solid;
+}
+
+.accueil {
+	background-size: cover;
+	height: 85vh;
+	padding: 0;
+	margin: 0;
+}

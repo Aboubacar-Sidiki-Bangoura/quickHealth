@@ -1,0 +1,108 @@
+.entete {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: minmax(50px, 70px);
+	background: var(--green, blue);
+}
+
+.entete div h4 {
+	margin: 0;
+	padding: 0;
+	margin-top: 5%;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-family: 'Comic Sans MS', 'Times New Roman', 'Impact';
+}
+
+.searchBar {
+	display: flex;
+	align-content: flex-start;
+	margin-top: 5%;
+	background: var(--black);
+	height: 47%;
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 10px;
+	padding-right: 0px;
+}
+
+.searchButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+	margin: 0px;
+	padding-top: 5px;
+	position: relative;
+}
+
+.searchButton:hover {
+	background: white;
+	width: 30px;
+	border-radius: 30px;
+}
+
+.inputText:focus {
+	background: gray;
+}
+
+.inputText {
+	margin-top: 0px;
+	margin-left: 0px;
+	height: 100%;
+	width: 80%;
+	border: none;
+	background: none;
+	outline: none;
+	padding: 0;
+	color: var(--white);
+	font-size: 1rem;
+	font-family: 'Times New Roman';
+	text-align: center;
+	font-weight: bold;
+	border-radius: 40px;
+}
+
+.messageButton {
+	margin-top: 5%;
+	border-radius: 10px;
+	background: var(--black);
+	width: 50%;
+	height: 43%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-items: center;
+	justify-content: center;
+	padding-left: 0.2%;
+}
+
+.messageButton img {
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	margin: 0;
+}
+
+.messageButton span {
+	display: inline-block;
+	font-size: 1rem;
+	width: auto;
+	color: var(--white);
+}
+
+.messageButton div {
+	display: inline-block;
+	text-align: center;
+	font-size: 1.5rem;
+	width: 20%;
+	height: 80%;
+	border-radius: 10px;
+	background: rgba(255, 0, 0, 0.7);
+}
+
+.iconUserStatus {
+	width: 100%;
+	height: 100%;
+}

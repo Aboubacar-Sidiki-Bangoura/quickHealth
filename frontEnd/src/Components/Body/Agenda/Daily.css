@@ -1,0 +1,10 @@
+.daily > table {
+	border: 1px solid var(--black);
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.daily > table tr th,
+.daily > table tr td {
+	border: 1px solid var(--black);
+}

@@ -1,0 +1,118 @@
+.formPatient,
+.formIndispo,
+.rendezvous,
+.myform {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+	/*overflow: scroll;*/
+}
+
+.formPatient h1,
+.formIndispo h1,
+.rendezvous h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-style: italic;
+}
+
+.formPatient form,
+.formIndispo form,
+.rendezvous form,
+.myform form {
+	display: block;
+	width: 85%;
+}
+
+.formPatient label input,
+.formIndispo label input,
+.rendezvous label input,
+.rendezvous label input[type='time'],
+.formPatient label textarea,
+.formPatient label select,
+.myform label input {
+	display: inline-block;
+	border: var(--green) solid 2px;
+	border-radius: 5px;
+	height: 25px;
+	width: 50%;
+	margin-top: 5px;
+}
+
+.formPatient label input[type="radio"] {
+	height: 15px;
+	width: 15px;
+	color: var(--green);
+}
+
+.formPatient label input:focus,
+.rendezvous label input:focus,
+.formPatient label textarea:focus,
+.formIndispo label input:focus,
+.formIndispo label textarea:focus,
+.myform label input:focus {
+	font-weight: bold;
+	box-shadow: 3px 3px 2px var(--green);
+}
+
+#labelAdresse textarea {
+	height: 2rem;
+}
+
+#labelAdresse p {
+	width: 25%;
+}
+
+#labelAdresse {
+	display: flex;
+}
+
+.formPatient label,
+.rendezvous label,
+.formIndispo label,
+.myform label {
+	font-size: 1rem;
+	font-weight: bold;
+	font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formPatient form label input,
+.formIndispo form label input,
+.myform form label input {
+	margin-left: 0.8rem;
+	margin-right: 15px;
+}
+
+.button,
+.formIndispo input[type='reset'],
+.formIndispo input[value='Valider'],
+.rendezvous input[type='reset'],
+.rendezvous input[value='Valider'],
+.myform input[type='reset'],
+.myform input[value='Valider'] {
+	font-size: 1rem;
+	font-family: 'Times New Roman', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode';
+	margin: 2px;
+	position: relative;
+	left: 40%;
+}
+
+.button:hover,
+.formIndispo input[value='Valider']:hover,
+.rendezvous input[value='Valider']:hover,
+.myform input[value='Valider']:hover {
+	box-shadow: 3px 3px 2px var(--green);
+}
+
+.formPatient input[value="Soumettre"],
+.formIndispo input[value="Valider"],
+.rendezvous input[value="Valider"],
+.myform input[value="Valider"] {
+	background: var(--green);
+	margin-right: 15%;
+}

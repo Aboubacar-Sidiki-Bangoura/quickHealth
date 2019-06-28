@@ -1,0 +1,26 @@
+.quickHealth {
+	margin: auto;
+	display: grid;
+	grid-template-columns: 0.25fr 2fr 0.75fr;
+	grid-template-rows: minmax(50px, 70px) 90vh;
+	grid-gap: 5px;
+	grid-template-areas: "Entete   Entete  Entete" "LeftSide Body    RightBar";
+}
+
+.enTete {
+	grid-area: Entete;
+}
+
+.navigationBar {
+	grid-area: LeftSide;
+}
+
+.body {
+	grid-area: Body;
+	border: 2px solid var(--black);
+	overflow: scroll;
+}
+
+.rightBar {
+	grid-area: RightBar;
+}

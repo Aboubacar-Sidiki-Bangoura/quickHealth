@@ -1,0 +1,35 @@
+.navigation {
+	height: 89.4vh;
+	display: flex;
+	flex-direction: column;
+	border: solid var(--black);
+	padding: 0;
+}
+
+.navigation > div,
+.active {
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+	align-content: center;
+	border-bottom: solid var(--black) 1px;
+	width: 100%;
+}
+
+.navigation img {
+	width: 50px;
+	height: 50px;
+}
+.navigation a,
+.navigation span {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.active {
+	background: var(--green);
+	font-style: italic;
+	font-weight: bold;
+}

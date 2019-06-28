@@ -1,0 +1,47 @@
+.formInfo {
+	writing-mode: initial;
+	width: 120.5vh;
+	background: var(--white);
+	border: var(--black) solid 1px;
+}
+
+#myFormInfo form {
+	display: block;
+	width: 100%;
+}
+.formInfoBody {
+	width: 100%;
+	display: flex;
+	margin: 0;
+}
+
+.formInfoBody div:nth-child(1) {
+	width: 105vh;
+}
+
+.formInfoBody div:nth-child(2) {
+	flex-direction: column;
+	width: 12vh;
+}
+
+#myFormInfo input {
+	font-size: 1rem;
+	margin: 5px;
+	display: inline-block;
+	border: var(--black) solid 2px;
+	border-radius: 5px;
+	height: 30px;
+}
+
+#myFormInfo input[type="text"] {
+	width: 85%;
+}
+
+#myFormInfo input[type="submit"],
+#myFormInfo input[type="reset"] {
+	width: 80%;
+}
+
+.submit {
+	background: var(--green);
+}

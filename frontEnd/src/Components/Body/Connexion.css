@@ -1,0 +1,78 @@
+.connexion {
+	font-family: sans-serif;
+	background: url(../../Public/img/Doctor2.jpg) no-repeat;
+	background-size: cover;
+	display: flex;
+	min-height: 100%;
+	align-items: center;
+	justify-items: center;
+	justify-content: center;
+}
+
+.form {
+	display: block;
+	background: rgba(0, 0, 0, 0.9);
+	text-align: center;
+	padding: 0;
+}
+
+.form h1 {
+	font-size: 40px;
+	border-bottom: 6px solid var(--green);
+	margin-bottom: 5px;
+	padding: 13px 0;
+	color: white;
+}
+
+.form label {
+	font-size: 25px;
+	color: white;
+}
+
+.form a {
+	display: block;
+	font-size: 20px;
+	color: var(--green);
+	padding-bottom: 5px;
+}
+
+.textbox {
+	width: 50%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	border-bottom: 1px solid var(--green);
+}
+
+.textbox input {
+	border: none;
+	outline: none;
+	background: none;
+	color: white;
+	font-size: 18px;
+	width: 50%;
+	float: left;
+	margin: 0 10px;
+}
+
+.textbox input[type="checkbox"] {
+	width: 20px;
+	margin: 2px;
+	padding: 0px;
+}
+
+.btn {
+	width: 180px;
+	background: var(--green);
+	display: inline-block;
+	margin: 2% 20px;
+	padding: 20px 0px;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+}
+
+#saveSession {
+	width: 5%;
+}

@@ -1,0 +1,23 @@
+.agenda input[type="button"] {
+	display: inline-block;
+	background: var(--black);
+	width: 33.33%;
+	height: 2rem;
+	color: var(--white);
+}
+
+.agenda h2 {
+	text-align: center;
+	margin: 0;
+}
+
+.agenda table {
+	border: 1px solid var(--black);
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.agenda table tr th,
+.agenda table tr td {
+	border: 1px solid var(--black);
+}

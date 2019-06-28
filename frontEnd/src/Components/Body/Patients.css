@@ -1,0 +1,23 @@
+.patients > table {
+	border: 1px solid var(--black);
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.patients > table tr th,
+.patients > table tr td {
+	border: 1px solid var(--black);
+	text-align: center;
+	align-content: center;
+}
+.patients > table tr td a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	align-self: center;
+}
+
+.patients > table tr td img {
+	width: 30px;
+	height: 30px;
+}

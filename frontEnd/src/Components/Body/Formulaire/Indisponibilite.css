@@ -1,0 +1,24 @@
+.formIndispo form {
+	padding-left: 35%;
+}
+
+.formIndispo input[type='time'] {
+	width: 3.5rem;
+}
+
+.formIndispo input[type='date'] {
+	width: 8rem;
+}
+
+.formIndispo input[type='text'] {
+	width: 20rem;
+}
+
+.formIndispo input[value='Valider'] {
+	width: 6rem;
+}
+
+.indisponibilite {
+	display: flex;
+	flex-direction: column;
+}

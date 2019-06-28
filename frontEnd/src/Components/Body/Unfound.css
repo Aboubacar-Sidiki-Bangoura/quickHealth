@@ -1,0 +1,10 @@
+.unfound {
+	height: 100%;
+	width: 100%;
+	background: url(../../Public/img/emoji1.jpg);
+	background-size: cover;
+}
+
+.unfound h1 {
+	text-align: center;
+}
